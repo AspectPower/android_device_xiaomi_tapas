@@ -266,6 +266,12 @@ persist.vendor.radio.snapshot_enabled=1
 persist.vendor.radio.snapshot_timer=5
 persist.vendor.rcs.singlereg.feature=1
 
+# Radio - IMS
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # Sensors
 persist.vendor.sensors.debug.ssc_qmi_debug=true
 persist.vendor.sensors.enable.bypass_worker=true
