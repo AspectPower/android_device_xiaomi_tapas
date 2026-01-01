@@ -70,3 +70,6 @@ ro.hardware.wlan.chip=wcn3950
 ro.hardware.wlan.dbs=0
 ro.hardware.wlan.mimo=0
 ro.hardware.wlan.vendor=qcom
+
+# Log Spam
+persist.log.tag.QTIPowerHAL=S
