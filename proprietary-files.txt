@@ -1561,6 +1561,10 @@ vendor/lib64/android.hardware.thermal@2.0.so
 -vendor/lib64/liblmthermallistner.so
 -vendor/lib64/libthermalclient.so
 
+
+# Telephony
+system_ext/framework/qti-telephony-common.jar|e6990c7ce5b2daba078f527c51e0af455f15760d
+
 # Time
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
