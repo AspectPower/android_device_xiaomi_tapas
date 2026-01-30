@@ -1102,7 +1102,6 @@ vendor/etc/perf/targetavcsysnodesconfigs.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
 vendor/etc/perf/targetsysnodesconfigs.xml
-vendor/etc/powerhint.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
 vendor/etc/vintf/manifest/vendor.qti.memory.pasrmanager@1.0-service.xml
