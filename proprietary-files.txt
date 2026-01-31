@@ -556,6 +556,7 @@ product/etc/displayconfig/display_id_4630946444529356673.xml:vendor/etc/displayc
 product/etc/displayconfig/display_id_4630946914797301377.xml:vendor/etc/displayconfig/display_id_4630946914797301377.xml
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/init.qti.display_boot.sh
+vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/bin/ppd
 vendor/bin/qdcmss
 vendor/etc/display/advanced_sf_offsets.xml
@@ -570,6 +571,12 @@ vendor/lib64/libgpudataproducer.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libqseed3.so
 vendor/lib64/libqsocket.so
+vendor/lib64/libdisplayconfig.qti.so
+vendor/lib64/libdisplaydebug.so
+vendor/lib64/libhistogram.so
+vendor/lib64/libsdedrm.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmutils.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-disp-vndapis.so
@@ -1171,7 +1178,8 @@ system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
 system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
-system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
+system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so
+system_ext/lib64/vendor.qti.qccsyshal_aidl-halimpl.so
 vendor/bin/qcc-trd
 vendor/bin/qcc-vendor
 vendor/etc/init/init.qccvendor.rc
@@ -1285,6 +1293,7 @@ vendor/etc/vintf/manifest/android.hardware.radio.config.xml
 vendor/etc/vintf/manifest/deviceinfo-saidl.xml
 vendor/etc/vintf/manifest/qms-saidl.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
+vendor/lib64/libqdutils.so
 vendor/lib64/deviceInfoServiceModuleNr.so
 vendor/lib64/lib-rtpcommon.so
 vendor/lib64/lib-rtpcore.so
