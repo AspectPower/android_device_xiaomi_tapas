@@ -182,6 +182,15 @@ on boot
 #Start mi_thermald
     start mi_thermald
 
+on property:sys.boot_completed=1
+    # Set allocstall_threshold to 0
+    # Set swappiness to 100
+    write /sys/module/vmpressure/parameters/allocstall_threshold 0
+    write /proc/sys/vm/swappiness 100
+    # Enable ZRAM on boot_complete
+    swapon_all /vendor/etc/fstab.zram
+
+
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
 
