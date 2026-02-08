@@ -61,6 +61,7 @@ $(call soong_config_set, ufsbsg, ufsframework, bsg)
 
 # Display
 TARGET_SCREEN_DENSITY := 440
+TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
 
 # DTB/DTBO
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
