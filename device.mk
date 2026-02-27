@@ -205,6 +205,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.config-V5-ndk.vendor \
     vendor.qti.hardware.display.config-V6-ndk.vendor
 
+$(call soong_config_set,qtidisplay,gralloc_handle_has_reserved_size,true)
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
