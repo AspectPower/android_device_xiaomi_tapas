@@ -11,5 +11,3 @@ vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon         
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt               u:object_r:hal_fingerprint_hwservice:s0
 vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint               u:object_r:hal_fingerprint_hwservice:s0
 
-# Micharge
-vendor.xiaomi.hardware.micharge::IMiCharge u:object_r:vendor_hal_micharge_xiaomi_hwservice:s0
