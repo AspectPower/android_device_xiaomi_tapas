@@ -839,23 +839,6 @@ vendor/gpu/kbc/sequence_manifest.bin
 vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
--vendor/lib/egl/eglSubDriverAndroid.so;DISABLE_DEPS
--vendor/lib/egl/libEGL_adreno.so;DISABLE_DEPS
--vendor/lib/egl/libGLESv1_CM_adreno.so;DISABLE_DEPS
--vendor/lib/egl/libGLESv2_adreno.so;DISABLE_DEPS
--vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so;DISABLE_DEPS
--vendor/lib/egl/libq3dtools_adreno.so;DISABLE_DEPS
--vendor/lib/egl/libq3dtools_esx.so;DISABLE_DEPS
--vendor/lib/libCB.so;DISABLE_DEPS
--vendor/lib/libOpenCL.so;DISABLE_DEPS
--vendor/lib/libadreno_app_profiles.so;DISABLE_DEPS
--vendor/lib/libadreno_utils.so;DISABLE_DEPS
--vendor/lib/libgsl.so;DISABLE_DEPS
--vendor/lib/libkcl.so;DISABLE_DEPS
--vendor/lib/libkernelmanager.so;DISABLE_DEPS
--vendor/lib/libllvm-glnext.so;DISABLE_DEPS
--vendor/lib/libllvm-qcom.so;DISABLE_DEPS
--vendor/lib/libllvm-qgl.so;DISABLE_DEPS
 -vendor/lib64/egl/eglSubDriverAndroid.so;DISABLE_DEPS
 -vendor/lib64/egl/libEGL_adreno.so;DISABLE_DEPS
 -vendor/lib64/egl/libGLESv1_CM_adreno.so;DISABLE_DEPS
@@ -993,10 +976,6 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 
 # Media
--system_ext/lib/libmmosal.so;DISABLE_DEPS  
--system_ext/lib/libmmparser_lite.so;DISABLE_DEPS  
--system_ext/lib/libmmrtpdecoder.so;DISABLE_DEPS  
--system_ext/lib/libmmrtpencoder.so;DISABLE_DEPS  
 -system_ext/lib64/libmmosal.so;DISABLE_DEPS
 -system_ext/lib64/libmmparser_lite.so;DISABLE_DEPS
 -system_ext/lib64/libmmrtpdecoder.so;DISABLE_DEPS
