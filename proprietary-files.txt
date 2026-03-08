@@ -997,6 +997,7 @@ vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
 vendor/lib64/libmmosal_vendor.so
 vendor/lib64/libmmrtpdecoder_vendor.so
 vendor/lib64/libmmrtpencoder_vendor.so
+vendor/lib64/libmisight.so
 vendor/lib64/libqc2audio_base.so
 vendor/lib64/libqc2audio_basecodec.so
 vendor/lib64/libqc2audio_core.so
