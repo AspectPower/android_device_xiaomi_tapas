@@ -61,9 +61,14 @@ blob_fixups: blob_fixups_user_type = {
 
     'system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so': blob_fixup()
         .replace_needed('libprotobuf-cpp-full.so', 'libprotobuf-cpp-full-fromvendor.so'),
-
     'system_ext/lib64/libprotobuf-cpp-full-fromvendor.so': blob_fixup()
         .replace_needed('libprotobuf-cpp-lite.so','libprotobuf-cpp-lite-fromvendor.so'),
+    (
+        'vendor/lib64/camera/components/com.qti.node.dewarp.so',
+        'vendor/lib64/camera/components/com.vidhance.node.processing.so',
+    ): blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
+
 }
 
 module = ExtractUtilsModule(
