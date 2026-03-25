@@ -404,7 +404,8 @@ PRODUCT_PACKAGES += \
     SettingsResTapas \
     SystemUIResTapas \
     TelephonyResTapas \
-    WifiResTapas
+    WifiResTapas \
+    Launcher3Overlay
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
