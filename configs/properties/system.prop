@@ -76,3 +76,6 @@ persist.log.tag.QTIPowerHAL=S
 
 # Bluetooth
 persist.vendor.bt.a2dp.aac_whitelist=false
+
+# LMKD
+ro.lmk.log_stats=false
